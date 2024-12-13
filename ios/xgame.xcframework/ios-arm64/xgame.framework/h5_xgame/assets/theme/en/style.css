@@ -1,0 +1,300 @@
+:root {
+  --active: #b3fc00;
+  --disable: #c3fa0495;
+  --short: #dc0022;
+  --long: #b3fc00;
+
+  /**page*/
+  --navbar-bg: #1f1e23;
+  --navbar-mob-bg: #1f1e23;
+  --page-bg: #1f1e23;
+  --page-mob-bg: #1e1d22;
+  --box-bg: #2a2a2f;
+  --page-header: #ffffff;
+  --text-title-color: #ffffff;
+  --text-color: #ffffff;
+  --text-content-color: #76767e;
+  --text-label: #9f9fac;
+  --separator: #29282c;
+  --separator2: #323237;
+  --box-separator: #2f2f34;
+  --text-not-found: #414044;
+  --chip-bg: #2e2e33;
+  --chip-text: #babac0;
+  --chip-active-bg: var(--active);
+  --chip-active-text: #000000;
+
+  /** side menu */
+  --menu-bg: #1f1e22;
+  --menu-divider: #262528;
+  --menu-text: #9b9b9b;
+  --menu-chevon-color: #474747;
+  --menu-box-bg: #262529;
+  --menu-money-bg: #1a1a1d;
+  --menu-wallet-bg: #252529;
+  --menu-wallet-separator: #2d2d30;
+  --menu-wallet-text: #bcbcbc;
+  --menu-withdraw-btn-bg: #39393e;
+  --menu-deposit-btn-bg: #b5fd00;
+  --menu-account-text: #ffffff;
+
+  /** bottom navbar */
+  --bottom-nav-bg: #252429;
+  --bottom-nav-active: #c3fb04;
+  --bottom-nav-color: #76767e;
+  --bottom-nav-icon-color: #9897a0;
+  --bottom-nav-border: #2f2f36;
+
+  /** footer*/
+  --bg-footer: #1c1c1f;
+  --footer-text: #76767e;
+  --footer-title: #ffffff;
+
+  /** navigation bar background */
+  --navbar-item-active-bg: #27272e;
+  --navbar-item-active-color: #c8f850;
+  --navbar-item-color: #9897a0;
+  --navbar-money-bg: #18171c;
+  --balance-view-bg: #18171c;
+  --header-login-btn-bg: #36363e;
+  --header-login-btn-text: #ffffff;
+  --header-signup-btn-bg: var(--active);
+  --header-signup-btn-text: #000000;
+  --balance-viewer-wallet-bg: #f5f4f5;
+  --arrow-color: var(--text-content-color);
+
+
+  /** home */
+  --game-menu-item-bg-active: #27272e;
+  --game-menu-item-color: #9897a0;
+  --game-menu-bg: transparent;
+  --home-divider: #29282c;
+  --filter-item-bg: #141318;
+  --filter-bg: transparent;
+  --cate-icon-color: #ffffff;
+  --cate-color: #ffffff;
+  --swiper-btn-bg: #323139;
+  --swiper-btn-text: #ffffff;
+  --bet-table-header-text: #76767e;
+  --live-game-bg: linear-gradient(to bottom, #323139, #000000);
+
+  /** bottomsheet */
+  --bottomsheet-bg: #2f2f31;
+  --bottomsheet-text: #ffffff;
+  --bottomsheet-separator: #39393e;
+
+  /** auth */
+  --auth-text: #76767e;
+  --auth-label: #9f9fac;
+  --auth-tab-bg: #2f2e31;
+  --auth-tab-bg: #2f2e31;
+  --auth-active-tab-bg: #c3fb04;
+  --auth-bg: #323237;
+  --auth-web3-bg: #38383d;
+
+  /** vip */
+  --vip-section-bg: linear-gradient(rgb(42, 42, 46), transparent 15%);
+  --vip-tab-bg: #2a2a2e;
+  --vip-tab-text: #ffffff;
+  --vip-privilege-hint: #636464;
+  --vip-privilege-inactive: #909090;
+  --vip-privilege-active: var(--active);
+  --vip-privilege-bg: linear-gradient(to top right, #2a2a2e, #353539);
+  --vip-chip-bg: #2e2e33;
+  --vip-chip-text: #666569;
+  --vip-rule1-bg: #252529;
+  --vip-rule2-bg: #2b2b2f;
+  --vip-rule2-title: #c8c8c8;
+  --vip-rule2-text: #717175;
+
+
+  /**element*/
+  --input-bg: #28282c;
+  --input-placeholder: #57575c;
+  --input-border: #444449;
+  --selector-bg: linear-gradient(to bottom, #1f1f23, #26262a);
+  --provider-bg: #28272b;
+
+  /**agent*/
+  --agent-bg: linear-gradient(200deg,
+      hsl(75, 53%, 26%) 0px,
+      hsl(75, 53%, 26%) 180px,
+      hsl(76deg 43% 19%) 240px,
+      hsl(88deg 5% 14%) 350px,
+      hsl(252deg 8% 13%) 500px,
+      hsl(252deg 8% 13%) 100%);
+  --agent-header-bg: hsl(75, 53%, 26%) !important;
+  --agent-invite-title: var(--active);
+  --agent-overview-bg: #3e4c17;
+  --agent-new-sub-bg: var(--active);
+  --agent-search-btn-bg: #303037;
+  --agent-searchbox-border: #303035;
+  --agent-searchbox-bg: var(--input-bg);
+  --agent-game-tab-color: var(--active);
+  --agent-game-tab-bg: var(--box-bg);
+  --agent-game-active-tab-color: #000000;
+  --agent-game-active-tab-bg: var(--active);
+
+  /**wallet*/
+  --header-btn-bg: #2f2f31;
+  --header-btn-text: var(--text-content-color);
+  --header-active-btn-text: var(--active);
+  --deposit-wallet-address-bg: #252529;
+  --deposit-wallet-address-border: #333239;
+  --deposit-address-copy-bg: #424249;
+  --deposit-alert-bg: #38362b;
+  --deposit-alert-text: #d0b400;
+  --deposit-separator: var(--separator2);
+  --select-wallet-box-bg: #323235;
+  --select-wallet-bg: #29292b;
+  --select-wallet-arrow-bg: #403f44;
+
+  /**chat**/
+  --chat-menu-arrow-color: #ffffff;
+}
+
+.popover-custom-class {
+  background-color: var(--bottomsheet-bg);
+  color: var(--text-color);
+  border-radius: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-top: 11.5px;
+}
+
+.modal-custom-class {
+  border-radius: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-top: 0.75rem;
+  padding-bottom: 1.5rem;
+  width: 500px;
+  background-color: #2f2f31;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.ct-switch .slider {
+  background-color: #202123;
+}
+
+.ct-switch .slider__lighter {
+  background-color: #9b9b9b80 !important;
+}
+
+.ct-switch .slider__lighter__checked {
+  background-color: var(--active) !important;
+}
+
+.ct-switch .slider::after {
+  background-image: linear-gradient(to right, #3d3d42, #505057);
+}
+
+.ct-switch .slider__lighter::after {
+  background-image: linear-gradient(to right, #ffffff, #ffffff) !important;
+}
+
+.ct-switch .slider__lighter__checked::after {
+  background-image: linear-gradient(to right, #c0bfbf, #434343) !important;
+}
+
+.action-btn {
+  width: 100%;
+  border-radius: 0.75rem;
+  padding-bottom: 1px;
+  color: #000000;
+}
+
+.action-btn__active {
+  background-color: #a8eb16;
+}
+
+.action-btn__inactive {
+  background-color: #a8eb1670;
+}
+
+.action-btn .i1 {
+  width: 100%;
+  background-color: var(--separator2);
+  border-radius: 0.75rem;
+  padding-bottom: 3px;
+}
+
+.action-btn .i2 {
+  width: 100%;
+  border-radius: 0.75rem;
+  padding-bottom: 4px;
+}
+
+.action-btn .i2__active {
+  background-color: #6e9d00;
+}
+
+.action-btn .i2__inactive {
+  background-color: #6e9d0070;
+}
+
+.action-btn .i3 {
+  width: 100%;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.action-btn .i3__active {
+  background-image: linear-gradient(to right, #b1fd00, #bffe00 70%, #d8ff5980 100%);
+}
+
+.action-btn .i3__inactive {
+  background-image: linear-gradient(to right, #b1fd0070, #bffe0070 70%, #d8ff5970 100%);
+}
+
+.action-btn .i3 .s1__active {
+  background-color: #6e9d00;
+}
+
+.action-btn .i3 .s1__inactive {
+  background-color: #6e9d0070;
+}
+
+.chat-sender {
+  background-color: var(--box-bg);
+  color: #ffffff;
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.chat-sender .arrow {
+  background-color: rgb(107 114 128);
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+}
+
+.sender-btn {
+  background-color: var(--active);
+  color: #000000;
+}
+
+.sender-btn__disable {
+  background-color: var(--disable);
+  color: #00000080;
+}
+
+.sender-menu-item {
+  background-color: #00000020;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+}
+
+.quick-chat-item {
+  background-color: #242429;
+  color: #717179;
+}

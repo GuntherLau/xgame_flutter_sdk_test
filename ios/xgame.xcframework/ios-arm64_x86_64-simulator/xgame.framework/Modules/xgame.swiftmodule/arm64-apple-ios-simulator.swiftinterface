@@ -1,0 +1,90 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name xgame
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Alamofire
+import AppCenterAnalytics
+import DZNEmptyDataSet
+import DeveloperToolsSupport
+import ESPullToRefresh
+import EVReflection
+import Foundation
+import HandyJSON
+import Reachability
+import SSZipArchive
+import SVProgressHUD
+import SnapKit
+import Swift
+import SwiftUI
+import SwiftyJSON
+import Tiercel
+import UIKit
+import VTMagic
+import WebKit
+import Zip
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ScreenTool {
+}
+@_hasMissingDesignatedInitializers public class MyLotterySDK {
+  public static let shared: xgame.MyLotterySDK
+  public func showMainView(from vc: UIKit.UIViewController, with domain: Swift.String)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor @preconcurrency open class WKCookieWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor @preconcurrency weak public var wkNavigationDelegate: (any WebKit.WKNavigationDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var onDecidePolicyForNavigationAction: ((WebKit.WKWebView, WebKit.WKNavigationAction, @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onDecidePolicyForNavigationResponse: ((WebKit.WKWebView, WebKit.WKNavigationResponse, @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onUpdateCookieStorage: ((xgame.WKCookieWebView) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, configurationBlock: ((WebKit.WKWebViewConfiguration) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension xgame.WKCookieWebView {
+  public typealias HTTPCookieHandler = ([Foundation.HTTPCookie]?) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public func fetchCookies(completion: @escaping xgame.WKCookieWebView.HTTPCookieHandler)
+  @_Concurrency.MainActor @preconcurrency public func fetchCookies(filter host: Swift.String, completion: @escaping xgame.WKCookieWebView.HTTPCookieHandler)
+  @_Concurrency.MainActor @preconcurrency public func set(cookie: Foundation.HTTPCookie)
+  @_Concurrency.MainActor @preconcurrency public func delete(cookie: Foundation.HTTPCookie)
+}
+extension xgame.WKCookieWebView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @available(iOS 9.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+}
+extension UIKit.UIColor {
+  public class func hex(hex: Swift.String, alpha: CoreFoundation.CGFloat = 1.0) -> UIKit.UIColor
+}
+extension UIKit.UIColor {
+  public static var random: UIKit.UIColor {
+    get
+  }
+  convenience public init?(red: Swift.Int, green: Swift.Int, blue: Swift.Int, transparency: CoreFoundation.CGFloat = 1)
+}
+public typealias NavLeftItemHandle = () -> Swift.Void
+public typealias NavRightItemHandle = (_ sender: UIKit.UIButton) -> Swift.Void
+public enum NavRightItemType : Swift.Int {
+  case NavRightItemTypeNone
+  case NavRightItemTypeDiamond
+  case NavRightItemTypeDone
+  case NavRightItemTypeRestore
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension xgame.NavRightItemType : Swift.Equatable {}
+extension xgame.NavRightItemType : Swift.Hashable {}
+extension xgame.NavRightItemType : Swift.RawRepresentable {}
