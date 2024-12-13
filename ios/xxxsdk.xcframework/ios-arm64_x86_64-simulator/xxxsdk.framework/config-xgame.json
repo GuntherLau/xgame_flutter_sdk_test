@@ -1,0 +1,10 @@
+{
+    "xgame": {
+        "isLightSplash": false,
+        "baseWssURL": "",
+        "baseWssImageURL": "",
+        "healthCheckURLs": [
+            "http://20.2.26.171"
+        ]
+    }
+}

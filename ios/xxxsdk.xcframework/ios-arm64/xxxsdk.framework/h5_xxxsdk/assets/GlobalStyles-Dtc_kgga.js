@@ -1,0 +1,1 @@
+import{j as o,bM as r}from"./index-BRyeyo8a.js";function a(t){return t==null||Object.keys(t).length===0}function u(t){const{styles:s,defaultTheme:e={}}=t,n=typeof s=="function"?l=>s(a(l)?e:l):s;return o.jsx(r,{styles:n})}export{u as G};

@@ -1,0 +1,4 @@
+framework module xxxsdk {
+  header "xxxsdk-Swift.h"
+  requires objc
+}
