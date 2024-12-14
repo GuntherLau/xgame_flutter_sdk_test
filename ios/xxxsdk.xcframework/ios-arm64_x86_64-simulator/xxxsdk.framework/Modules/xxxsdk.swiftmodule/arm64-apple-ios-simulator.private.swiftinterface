@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name xxxsdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name xxxsdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
 import AppCenterAnalytics
 import DZNEmptyDataSet
@@ -32,36 +32,36 @@ public struct ScreenTool {
   public func showMainView(from vc: UIKit.UIViewController, with domain: Swift.String)
   @objc deinit
 }
-@objc @_Concurrency.MainActor @preconcurrency open class WKCookieWebView : WebKit.WKWebView {
-  @_Concurrency.MainActor @preconcurrency weak public var wkNavigationDelegate: (any WebKit.WKNavigationDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var onDecidePolicyForNavigationAction: ((WebKit.WKWebView, WebKit.WKNavigationAction, @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public var onDecidePolicyForNavigationResponse: ((WebKit.WKWebView, WebKit.WKNavigationResponse, @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public var onUpdateCookieStorage: ((xxxsdk.WKCookieWebView) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, configurationBlock: ((WebKit.WKWebViewConfiguration) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_Concurrency.MainActor(unsafe) open class WKCookieWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) weak public var wkNavigationDelegate: (any WebKit.WKNavigationDelegate)?
+  @_Concurrency.MainActor(unsafe) public var onDecidePolicyForNavigationAction: ((WebKit.WKWebView, WebKit.WKNavigationAction, @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var onDecidePolicyForNavigationResponse: ((WebKit.WKWebView, WebKit.WKNavigationResponse, @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var onUpdateCookieStorage: ((xxxsdk.WKCookieWebView) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configurationBlock: ((WebKit.WKWebViewConfiguration) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension xxxsdk.WKCookieWebView {
   public typealias HTTPCookieHandler = ([Foundation.HTTPCookie]?) -> Swift.Void
-  @_Concurrency.MainActor @preconcurrency public func fetchCookies(completion: @escaping xxxsdk.WKCookieWebView.HTTPCookieHandler)
-  @_Concurrency.MainActor @preconcurrency public func fetchCookies(filter host: Swift.String, completion: @escaping xxxsdk.WKCookieWebView.HTTPCookieHandler)
-  @_Concurrency.MainActor @preconcurrency public func set(cookie: Foundation.HTTPCookie)
-  @_Concurrency.MainActor @preconcurrency public func delete(cookie: Foundation.HTTPCookie)
+  @_Concurrency.MainActor(unsafe) public func fetchCookies(completion: @escaping xxxsdk.WKCookieWebView.HTTPCookieHandler)
+  @_Concurrency.MainActor(unsafe) public func fetchCookies(filter host: Swift.String, completion: @escaping xxxsdk.WKCookieWebView.HTTPCookieHandler)
+  @_Concurrency.MainActor(unsafe) public func set(cookie: Foundation.HTTPCookie)
+  @_Concurrency.MainActor(unsafe) public func delete(cookie: Foundation.HTTPCookie)
 }
 extension xxxsdk.WKCookieWebView : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
   @available(iOS 9.0, *)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
 }
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
 }
 extension UIKit.UIColor {
   public class func hex(hex: Swift.String, alpha: CoreFoundation.CGFloat = 1.0) -> UIKit.UIColor

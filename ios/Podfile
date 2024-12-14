@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+def shared
+  pod 'DZNEmptyDataSet', '1.8.1'
+  pod 'VTMagic', '1.2.4'
+  pod 'ESPullToRefresh', '2.9.3'
+  pod 'SwiftyJSON', '5.0.1'
+  pod 'SnapKit', '5.6.0'
+  pod 'SSZipArchive'
+  pod 'Alamofire', '5.6.4'
+  pod 'Tiercel'
+  pod 'EVReflection', '5.10.1'
+  pod 'SVProgressHUD', '2.2.5'
+  pod 'SwiftyJSON', '5.0.1'
+  pod 'HandyJSON', :git => 'https://github.com/Miles-Matheson/HandyJSON.git'
+  pod 'ReachabilitySwift'
+  pod 'Zip'
+  pod 'AppCenter'
+
+end
+
+targets = ['Runner']
+targets.each do |target_name|
+  target target_name do
+    use_frameworks!
+    shared
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end

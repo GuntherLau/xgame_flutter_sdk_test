@@ -1,4 +1,0 @@
-framework module xgame {
-  header "xgame-Swift.h"
-  requires objc
-}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>AppCenter.bundle/Info.plist</key>
 		<data>
-		AqulVeK0IUsgvvAnKukd/TYzf7Q=
+		sMBFXGlxaunFpnSDXbJfhjXVJxs=
 		</data>
 		<key>AppCenter.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>AppCenterAnalytics.bundle/Info.plist</key>
 		<data>
-		vtbYTbxsYbrVXUawBDbSbUz3bow=
+		P6ptSg77gRh+ZJzOTUlPwsFR4Xo=
 		</data>
 		<key>AppCenterAnalytics.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>AppCenterCrashes.bundle/Info.plist</key>
 		<data>
-		74Bp78F0Xla+eY4qHm1C3TT4j64=
+		R5C4nF599MraYwica2U17gMFC/U=
 		</data>
 		<key>AppCenterCrashes.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XQ4ZWh9kaS0ktS5Lz5iQwjWX438=
+		QvPe/0Xd5yjLw0RQKFEo+0XSu3w=
 		</data>
 		<key>DarkForceUpdateProgressVC.nib</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/xxxsdk-Swift.h</key>
 		<data>
-		3f+BwA9T2zlu2HxGKaxTwSQEpjw=
+		Ylrlq2blZVrc9SPATU9W59r9GEc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K6JUB1rm4J5TDH+MWapl/+5HfXo=
+		VSn0kZn19x4WFKepcRtTWyAtJB4=
 		</data>
 		<key>LightForceUpdateProgressVC.nib</key>
 		<data>
@@ -74,27 +74,27 @@
 		</data>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TAGd8dEQoCP0tzeerYjg46jGRBU=
+		xl2G3fHWELZnGs+N/y5xwSWYDnw=
 		</data>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8pOBxtuXCJ+9ckx+j7D7RQW1lfg=
+		j5NDWAUBvna+zFl3U0Kts2eu+lQ=
 		</data>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uWJbigZVHa22Tv8P26K1oJkeukg=
+		CBu+n2IExAklWd7jhXHKSWcgVus=
 		</data>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8pOBxtuXCJ+9ckx+j7D7RQW1lfg=
+		j5NDWAUBvna+zFl3U0Kts2eu+lQ=
 		</data>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iNIgF0wbUGMIBG1ENlf51Y+niPg=
+		7Isp5VAoBeQB+OU2W8A9Nb6l3/w=
 		</data>
 		<key>NewVersionViewController.nib</key>
 		<data>
-		AOLj8bnbeHcrlrrUIBnNyMa7xnY=
+		qaOEnbRRYvdVL1JhxBkqvJq+9OM=
 		</data>
 		<key>UpdateProgressViewController.nib</key>
 		<data>
@@ -1303,7 +1303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JzOXXJwweaa6cUIdJ9dtu4bomoO5OLhaVAW1d1Gfh4s=
+			uWnF3hOijNxcEB8wpMNDoygDe5mTJM9P5fgiGptT9p0=
 			</data>
 		</dict>
 		<key>AppCenter.bundle/PrivacyInfo.xcprivacy</key>
@@ -1317,7 +1317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z8DEDf9byU05bUceaZio14fF7JRlRn3bmCFjU4q2wEA=
+			TBtJoJvwcR8/+i07LN9RKpHVikpevf1MM05hWaoKLec=
 			</data>
 		</dict>
 		<key>AppCenterAnalytics.bundle/PrivacyInfo.xcprivacy</key>
@@ -1331,7 +1331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			owDfWi5KuPxdrYQwaD0eQPj/vkY4/KKQ+YlbK/gUG+I=
+			3QkimXyxb78UGLgZZyJm3GzMy6/sf3hY9I/zqHrISvg=
 			</data>
 		</dict>
 		<key>AppCenterCrashes.bundle/PrivacyInfo.xcprivacy</key>
@@ -1345,7 +1345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NHAR0ztG8h8rh9+tWt2rtbQiNWMD49XOwT4nyvVa3x4=
+			8KQ06pykZdTISEKID7XKo7EEwfQZzu1WpRKfBeLr9nI=
 			</data>
 		</dict>
 		<key>DarkForceUpdateProgressVC.nib</key>
@@ -1366,7 +1366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xhn00Hv3DD6E5ZSjojKX/6elrPRJ1hpL5vP8MPWFbDU=
+			jM1ZqTNo1EM34x5pyJy79qzjFy8sBIv4nwUk1l1OqUg=
 			</data>
 		</dict>
 		<key>LightForceUpdateProgressVC.nib</key>
@@ -1415,42 +1415,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ogWF/QeU2LDtluJE3Rp97LRyp3LtpgFVXpG8DqSEkB8=
+			1HUBstjIabWOrDycIPhxnch9C6HmSSOD1AMJ8VRPLaI=
 			</data>
 		</dict>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			++Q0bCdNG2G8JuWR/05COe+W0rVfTjbQECKYGK3fgTc=
+			xwlhLL+X63tQLSjaWUWXlkrIas1G8rkou+4UxMMJado=
 			</data>
 		</dict>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C7exq7J47K/pRxZ+AGlfCwvZI32RJnxmABX0jfo4FUo=
+			HPPT5P6HIGmN9cB19Fv2ri9Y+9O/XFlL6BeikoeXuig=
 			</data>
 		</dict>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			++Q0bCdNG2G8JuWR/05COe+W0rVfTjbQECKYGK3fgTc=
+			xwlhLL+X63tQLSjaWUWXlkrIas1G8rkou+4UxMMJado=
 			</data>
 		</dict>
 		<key>Modules/xxxsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+CsoL8ZGdR+7BvACsc08uuUyLHltY3SDIEqG/1FD204=
+			xNay4+pvvh+DR4X4LSnkJLwbcDAs1gtWxnVSgWb2NEk=
 			</data>
 		</dict>
 		<key>NewVersionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			THxnDHhUY4QFVx4/ot54T8Uz+DHsPHdz9sD+2L6O+GU=
+			2uXQYTMBFfr2jaf4dvphHJK7D5l4Rxw33tg5+yc0EK4=
 			</data>
 		</dict>
 		<key>UpdateProgressViewController.nib</key>

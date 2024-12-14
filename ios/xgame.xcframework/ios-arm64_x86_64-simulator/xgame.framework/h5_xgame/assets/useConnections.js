@@ -1,1 +1,0 @@
-import{b2 as r,c,r as u}from"./index.sdk-0.0.1.js";let e=[];function s(t){const n=[...t.state.connections.values()];return t.state.status==="reconnecting"||r(e,n)?e:(e=n,n)}function i(t,n){const{onChange:o}=n;return t.subscribe(()=>s(t),o,{equalityFn:r})}function f(t={}){const n=c(t);return u.useSyncExternalStore(o=>i(n,{onChange:o}),()=>s(n),()=>s(n))}export{f as u};

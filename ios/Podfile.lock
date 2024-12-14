@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AppCenter (5.0.5):
+    - AppCenter/Analytics (= 5.0.5)
+    - AppCenter/Crashes (= 5.0.5)
+  - AppCenter/Analytics (5.0.5):
+    - AppCenter/Core
+  - AppCenter/Core (5.0.5)
+  - AppCenter/Crashes (5.0.5):
+    - AppCenter/Core
+  - DZNEmptyDataSet (1.8.1)
+  - ESPullToRefresh (2.9.3)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - HandyJSON (5.0.4-beta)
+  - ReachabilitySwift (5.2.3)
+  - SnapKit (5.6.0)
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.1)
+  - Tiercel (3.2.5)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - Zip (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.4)
+  - AppCenter
+  - DZNEmptyDataSet (= 1.8.1)
+  - ESPullToRefresh (= 2.9.3)
+  - EVReflection (= 5.10.1)
+  - HandyJSON (from `https://github.com/Miles-Matheson/HandyJSON.git`)
+  - ReachabilitySwift
+  - SnapKit (= 5.6.0)
+  - SSZipArchive
+  - SVProgressHUD (= 2.2.5)
+  - SwiftyJSON (= 5.0.1)
+  - Tiercel
+  - VTMagic (= 1.2.4)
+  - Zip
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppCenter
+    - DZNEmptyDataSet
+    - ESPullToRefresh
+    - EVReflection
+    - ReachabilitySwift
+    - SnapKit
+    - SSZipArchive
+    - SVProgressHUD
+    - SwiftyJSON
+    - Tiercel
+    - VTMagic
+    - Zip
+
+EXTERNAL SOURCES:
+  HandyJSON:
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
+
+CHECKOUT OPTIONS:
+  HandyJSON:
+    :commit: de8a7126d2270da55cea3cb45dadffcfd002dbbe
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AppCenter: 994875ea7941b9e168babb98299f900a94bcef13
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Tiercel: c0a73f876a72800333b15f4e7e48791f4ad21e90
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  Zip: b3fef584b147b6e582b2256a9815c897d60ddc67
+
+PODFILE CHECKSUM: c5169ca01e9e39446fc2282a6cc7aa9992e22429
+
+COCOAPODS: 1.15.2
